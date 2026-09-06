@@ -1,0 +1,16 @@
+# Unreal Engine build and temporary files
+**/Binaries/
+**/Intermediate/
+**/DerivedDataCache/
+**/Saved/
+**/Build/
+
+# IDE files
+**/.vs/
+**/*.sln
+**/*.vcxproj
+**/*.vcxproj.user
+
+# OS files
+.DS_Store
+Thumbs.db
