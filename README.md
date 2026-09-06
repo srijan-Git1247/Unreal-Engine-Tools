@@ -8,3 +8,7 @@ A comprehensive collection of custom C++ plugins, editor extensions, and workflo
    ```bash
    cd YourProject/Plugins
    git clone [https://github.com/srijan-Git1247/Unreal-Engine-Tools.git](https://github.com/srijan-Git1247/Unreal-Engine-Tools.git)
+
+2. Regenerate Visual Studio project files (Right-click .uproject $\rightarrow$ Generate Visual Studio project files).
+
+3. Build the solution in Visual Studio under the Development Editor configuratio
