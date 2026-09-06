@@ -3,6 +3,18 @@
 A custom C++ **Editor Mode** plugin (`UEdMode` / `FEdMode`) for Unreal Engine 5 designed to accelerate level editing, viewport interactions, and asset handling.
 
 ---
+## 🚀 Setup & Installation
+
+1. Copy or clone the **BadBotEditor** directory into your Unreal Engine project's `Plugins/` folder:
+   ```bash
+   YourProject/
+   └── Plugins/
+       └── BadBotEditor/
+2. Right-click your project's .uproject file in File Explorer and select Generate Visual Studio project files.
+
+3. Open the .sln file in Visual Studio or Rider and compile the solution under the Development Editor configuration.
+
+4. Launch the project, go to Edit > Plugins, and ensure BadBotEditor is checked/enabled
 
 ## 🛠️ Included Tools
 
