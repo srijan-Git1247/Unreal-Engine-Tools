@@ -17,18 +17,7 @@ A custom C++ **Editor Mode** plugin (`UEdMode` / `FEdMode`) for Unreal Engine 5 
 4. Launch the project, go to Edit > Plugins, and ensure BadBotEditor is checked/enabled
 
 ## 🛠️ Included Tools
-
-### 🟢 Completed Tools
-
-* **Material Copy-Paste Tool:** Allows level designers and environment artists to instantly sample and assign materials directly in the viewport, bypassing manual Details panel navigation.
-  * **Controls:** Hold down `M` (default key) + **Right Click** on a static mesh to copy its material. Hold down `M` + **Left Click** on a target static mesh to paste.
-  * **Custom Keybindings:** Uses an engine command wrapper (`FUICommandInfo`), allowing users to rebind the activation key in Unreal's Editor Preferences.
-  * **Architecture:** Decoupled into its own dedicated tool class rather than crammed into the core editor mode class, keeping the plugin modular and scalable.
-  * **Safety & UX:** Features full Undo/Redo transaction support (`FScopedTransaction`) and real-time feedback using the Slate notification library.
- 
-
-### 🟢 Completed Tools
-* **Material Copy-Paste Tool:** Quickly copy and paste materials between objects directly in the viewport without digging through the Details panel.
+* **🟢Material Copy-Paste Tool:** Quickly copy and paste materials between objects directly in the viewport without digging through the Details panel.
 
 * **Controls:** Copy: Hold M + Right-Click on a mesh. Paste: Hold M + Left-Click on a target mesh.
 * **Custom Shortcuts:** Change the default M key anytime in Unreal's Editor Preferences.
