@@ -27,7 +27,7 @@ A custom C++ **Editor Mode** plugin (`UEdMode` / `FEdMode`) for Unreal Engine 5 
 
 **🟢Material Copy-Paste Tool:** Quickly copy and paste materials between objects directly in the viewport without digging through the Details panel.
 
-<video src="https://github.com/user-attachments/assets/13e80b64-adae-44ab-82d8-2ff5aa28bd89" width="500" controls></video>
+<video src="https://github.com/user-attachments/assets/13e80b64-adae-44ab-82d8-2ff5aa28bd89" width="300" height="300" controls></video>
 
 * **Controls:** Copy: Hold M + Right-Click on a mesh. Paste: Hold M + Left-Click on a target mesh.
 * **Custom Shortcuts:** Change the default M key anytime in Unreal's Editor Preferences.
