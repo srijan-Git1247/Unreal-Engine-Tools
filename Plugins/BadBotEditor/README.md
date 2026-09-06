@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/13e80b64-adae-44ab-82d8-2ff5aa28bd89
+
 # BadBotEditor Plugin
 
 
