@@ -25,6 +25,16 @@ A custom C++ **Editor Mode** plugin (`UEdMode` / `FEdMode`) for Unreal Engine 5 
   * **Custom Keybindings:** Uses an engine command wrapper (`FUICommandInfo`), allowing users to rebind the activation key in Unreal's Editor Preferences.
   * **Architecture:** Decoupled into its own dedicated tool class rather than crammed into the core editor mode class, keeping the plugin modular and scalable.
   * **Safety & UX:** Features full Undo/Redo transaction support (`FScopedTransaction`) and real-time feedback using the Slate notification library.
+ 
+
+### 🟢 Completed Tools
+* **Material Copy-Paste Tool:** Quickly copy and paste materials between objects directly in the viewport without digging through the Details panel.
+
+* **Controls:** Copy: Hold M + Right-Click on a mesh. Paste: Hold M + Left-Click on a target mesh.
+* **Custom Shortcuts:** Change the default M key anytime in Unreal's Editor Preferences.
+* **Full Undo/Redo:** Fully supports Ctrl + Z (FScopedTransaction) so you can undo accidental pastes.
+* **Clean Design:** Built in its own standalone C++ class to keep the code clean and modular.
+* **Slate Notification Helper (BadBotShared):** A reusable helper library that displays on-screen toast messages (green checkmarks for success, red X's for errors) to give instant feedback for editor actions.
 
 ## 📂 Module Architecture
 
